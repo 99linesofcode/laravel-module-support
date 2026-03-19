@@ -2,4 +2,4 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::name('skeleton.')->group(function () {});
+Route::name('support.')->group(function () {});

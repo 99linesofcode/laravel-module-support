@@ -1,9 +1,9 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "99linesofcode/laravel-package-skeleton",
-    "description": "Laravel Package Development Skeleton Project",
+    "name": "99linesofcode/laravel-module-support",
+    "description": "Cross cutting concerns and supporting code for Laravel modules",
     "keywords": [],
-    "homepage": "https://github.com/99linesofcode/laravel-package-skeleton",
+    "homepage": "https://github.com/99linesofcode/laravel-module-support",
     "license": "MIT",
     "authors": [
         {
@@ -38,7 +38,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Lines\\Skeleton\\": "src/"
+            "Lines\\Support\\": "src/"
         },
         "classmap": [
             "database/factories",
@@ -47,7 +47,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Lines\\Skeleton\\Tests\\": "tests/",
+            "Lines\\Support\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/",
             "Workbench\\Database\\Factories\\": "workbench/database/factories/",
             "Workbench\\Database\\Seeders\\": "workbench/database/seeders/"
@@ -93,7 +93,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Lines\\Skeleton\\SkeletonServiceProvider"
+                "Lines\\Support\\SupportServiceProvider"
             ],
             "aliases": [],
             "dont-discover": []

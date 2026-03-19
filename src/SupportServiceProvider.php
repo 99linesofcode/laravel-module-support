@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Lines\Skeleton;
+namespace Lines\Support;
 
 use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
@@ -12,11 +12,11 @@ use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class SupportServiceProvider extends PackageServiceProvider
 {
-    public static string $name = 'skeleton';
+    public static string $name = 'support';
 
-    public static string $viewNamespace = 'skeleton';
+    public static string $viewNamespace = 'support';
 
     public function configurePackage(Package $package): void
     {
@@ -39,8 +39,8 @@ class SkeletonServiceProvider extends PackageServiceProvider
     public function packageBooted(): void
     {
         Livewire::addNamespace(
-            namespace: 'skeleton',
-            classNamespace: 'Lines\\Skeleton\\App\\Livewire',
+            namespace: 'support',
+            classNamespace: 'Lines\\Support\\App\\Livewire',
             classPath: __DIR__.'/App/Livewire',
             classViewPath: __DIR__.'/../resources/views',
         );
@@ -61,15 +61,15 @@ class SkeletonServiceProvider extends PackageServiceProvider
         if (app()->runningInConsole()) {
             foreach (app(Filesystem::class)->files(__DIR__.'/../stubs/') as $file) {
                 $this->publishes([
-                    $file->getRealPath() => base_path("stubs/skeleton/{$file->getFilename()}"),
-                ], 'skeleton-stubs');
+                    $file->getRealPath() => base_path("stubs/support/{$file->getFilename()}"),
+                ], 'support-stubs');
             }
         }
     }
 
     protected function getAssetPackageName(): ?string
     {
-        return 'lines/skeleton';
+        return 'lines/support';
     }
 
     /**
@@ -78,9 +78,9 @@ class SkeletonServiceProvider extends PackageServiceProvider
     protected function getAssets(): array
     {
         return [
-            // AlpineComponent::make('skeleton', __DIR__ . '/../resources/dist/components/skeleton.js'),
-            // Css::make('skeleton-styles', __DIR__ . '/../resources/dist/skeleton.css'),
-            // Js::make('skeleton-scripts', __DIR__ . '/../resources/dist/skeleton.js'),
+            // AlpineComponent::make('support', __DIR__ . '/../resources/dist/components/support.js'),
+            // Css::make('support-styles', __DIR__ . '/../resources/dist/support.css'),
+            // Js::make('support-scripts', __DIR__ . '/../resources/dist/support.js'),
         ];
     }
 
