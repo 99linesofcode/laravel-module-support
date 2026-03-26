@@ -1,3 +1,12 @@
+## [0.1.2](https://github.com/99linesofcode/laravel-module-support/compare/v0.1.1...v0.1.2) (2026-03-26)
+
+
+### Bug Fixes
+
+* **deps:** bump picomatch in the npm_and_yarn group across 1 directory ([9473dbb](https://github.com/99linesofcode/laravel-module-support/commit/9473dbb5d2fce143121929f878216aee67669f70))
+
+
+
 ## [0.1.1](https://github.com/99linesofcode/laravel-module-support/compare/v0.1.0...v0.1.1) (2026-03-25)
 
 
