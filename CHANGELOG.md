@@ -1,3 +1,15 @@
+## [0.1.6](https://github.com/99linesofcode/laravel-module-support/compare/v0.1.5...v0.1.6) (2026-04-19)
+
+
+### Bug Fixes
+
+* **deps:** bump basic-ftp in the npm_and_yarn group across 1 directory ([#18](https://github.com/99linesofcode/laravel-module-support/issues/18)) ([55b3027](https://github.com/99linesofcode/laravel-module-support/commit/55b30274f58e4fc2741c6ec2b0c8ff71b5fbf13d))
+* **deps:** bump basic-ftp in the npm_and_yarn group across 1 directory ([#19](https://github.com/99linesofcode/laravel-module-support/issues/19)) ([b4bcbc8](https://github.com/99linesofcode/laravel-module-support/commit/b4bcbc85a156ca84b886deb527472599a157bb38))
+* **deps:** bump follow-redirects ([#22](https://github.com/99linesofcode/laravel-module-support/issues/22)) ([8510d21](https://github.com/99linesofcode/laravel-module-support/commit/8510d213a0616fee6be89cac362a9137441ba633))
+* **deps:** bump protobufjs in the npm_and_yarn group across 1 directory ([#25](https://github.com/99linesofcode/laravel-module-support/issues/25)) ([5d3464e](https://github.com/99linesofcode/laravel-module-support/commit/5d3464e68aa7bb3fd21fe504f5348aa0cc340d41))
+
+
+
 ## [0.1.5](https://github.com/99linesofcode/laravel-module-support/compare/v0.1.4...v0.1.5) (2026-04-02)
 
 
@@ -31,15 +43,6 @@
 ### Bug Fixes
 
 * **deps:** bump picomatch in the npm_and_yarn group across 1 directory ([9473dbb](https://github.com/99linesofcode/laravel-module-support/commit/9473dbb5d2fce143121929f878216aee67669f70))
-
-
-
-## [0.1.1](https://github.com/99linesofcode/laravel-module-support/compare/v0.1.0...v0.1.1) (2026-03-25)
-
-
-### Bug Fixes
-
-* **deps:** bump devshell from `0195dc0` to `e949d95` ([8f59463](https://github.com/99linesofcode/laravel-module-support/commit/8f59463473b2216ef733f7db7882a65790074aeb))
 
 
 
