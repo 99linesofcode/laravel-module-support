@@ -1,3 +1,12 @@
+## [0.2.1](https://github.com/99linesofcode/laravel-module-support/compare/v0.2.0...v0.2.1) (2026-09-17)
+
+
+### Bug Fixes
+
+* **deps:** bump devshell from `7b1fc23` to `c369d7f` ([#76](https://github.com/99linesofcode/laravel-module-support/issues/76)) ([7779472](https://github.com/99linesofcode/laravel-module-support/commit/7779472921a88a2bfc845689731a45a2fd49339c))
+
+
+
 # [0.2.0](https://github.com/99linesofcode/laravel-module-support/compare/v0.1.6...v0.2.0) (2026-09-06)
 
 
@@ -49,15 +58,6 @@
 ### Bug Fixes
 
 * **deps:** bump devshell from `e949d95` to `7b1fc23` ([c055f1d](https://github.com/99linesofcode/laravel-module-support/commit/c055f1d7d1ebd23074a98b7ea3b04e136f617943))
-
-
-
-## [0.1.3](https://github.com/99linesofcode/laravel-module-support/compare/v0.1.2...v0.1.3) (2026-03-30)
-
-
-### Bug Fixes
-
-* **deps:** bump brace-expansion ([#10](https://github.com/99linesofcode/laravel-module-support/issues/10)) ([ef633bb](https://github.com/99linesofcode/laravel-module-support/commit/ef633bb0bc7f67912bba39a297037dcc73ba647f))
 
 
 
