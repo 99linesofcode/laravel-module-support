@@ -1,3 +1,12 @@
+## [0.2.2](https://github.com/99linesofcode/laravel-module-support/compare/v0.2.1...v0.2.2) (2026-09-21)
+
+
+### Bug Fixes
+
+* **deps:** bump devshell from `c369d7f` to `21db3dd` ([#78](https://github.com/99linesofcode/laravel-module-support/issues/78)) ([334ddc4](https://github.com/99linesofcode/laravel-module-support/commit/334ddc4094c68a031bcc3ea921e38a8b18863b26))
+
+
+
 ## [0.2.1](https://github.com/99linesofcode/laravel-module-support/compare/v0.2.0...v0.2.1) (2026-09-17)
 
 
@@ -49,15 +58,6 @@
 ### Bug Fixes
 
 * **dependabot:** introduce dependency cooldown to mitigate supply chain attacks ([3172632](https://github.com/99linesofcode/laravel-module-support/commit/31726323b1292de982674996e5ca482755e9ac1f))
-
-
-
-## [0.1.4](https://github.com/99linesofcode/laravel-module-support/compare/v0.1.3...v0.1.4) (2026-03-30)
-
-
-### Bug Fixes
-
-* **deps:** bump devshell from `e949d95` to `7b1fc23` ([c055f1d](https://github.com/99linesofcode/laravel-module-support/commit/c055f1d7d1ebd23074a98b7ea3b04e136f617943))
 
 
 
