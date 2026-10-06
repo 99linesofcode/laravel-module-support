@@ -1,3 +1,12 @@
+## [0.3.1](https://github.com/99linesofcode/laravel-module-support/compare/v0.3.0...v0.3.1) (2026-10-06)
+
+
+### Bug Fixes
+
+* **lint:** make composer lint green end to end ([5f1f29a](https://github.com/99linesofcode/laravel-module-support/commit/5f1f29a556252ed20454878dc650d869483b2fc6))
+
+
+
 # [0.3.0](https://github.com/99linesofcode/laravel-module-support/compare/v0.2.2...v0.3.0) (2026-10-06)
 
 
@@ -51,18 +60,6 @@
 ### Features
 
 * **dependabot:** automatically update submodules, node and composer packages ([19eab27](https://github.com/99linesofcode/laravel-module-support/commit/19eab27375cafc2f7c15f1d4c26976da07992098))
-
-
-
-## [0.1.6](https://github.com/99linesofcode/laravel-module-support/compare/v0.1.5...v0.1.6) (2026-04-19)
-
-
-### Bug Fixes
-
-* **deps:** bump basic-ftp in the npm_and_yarn group across 1 directory ([#18](https://github.com/99linesofcode/laravel-module-support/issues/18)) ([55b3027](https://github.com/99linesofcode/laravel-module-support/commit/55b30274f58e4fc2741c6ec2b0c8ff71b5fbf13d))
-* **deps:** bump basic-ftp in the npm_and_yarn group across 1 directory ([#19](https://github.com/99linesofcode/laravel-module-support/issues/19)) ([b4bcbc8](https://github.com/99linesofcode/laravel-module-support/commit/b4bcbc85a156ca84b886deb527472599a157bb38))
-* **deps:** bump follow-redirects ([#22](https://github.com/99linesofcode/laravel-module-support/issues/22)) ([8510d21](https://github.com/99linesofcode/laravel-module-support/commit/8510d213a0616fee6be89cac362a9137441ba633))
-* **deps:** bump protobufjs in the npm_and_yarn group across 1 directory ([#25](https://github.com/99linesofcode/laravel-module-support/issues/25)) ([5d3464e](https://github.com/99linesofcode/laravel-module-support/commit/5d3464e68aa7bb3fd21fe504f5348aa0cc340d41))
 
 
 
