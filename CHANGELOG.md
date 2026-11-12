@@ -1,3 +1,12 @@
+# [0.6.0](https://github.com/99linesofcode/laravel-module-support/compare/v0.5.0...v0.6.0) (2026-11-12)
+
+
+### Features
+
+* **dto:** refuse a data transfer object with a public constructor ([4c3c051](https://github.com/99linesofcode/laravel-module-support/commit/4c3c0513386c9b3d0b9068dafcf4179cec97b596))
+
+
+
 # [0.5.0](https://github.com/99linesofcode/laravel-module-support/compare/v0.4.0...v0.5.0) (2026-11-12)
 
 
@@ -48,15 +57,6 @@
 ### Features
 
 * **lint:** enforce the layer contract with deptrac ([c86215c](https://github.com/99linesofcode/laravel-module-support/commit/c86215c9e6c2d8e3ed40137de35690c4928d2055))
-
-
-
-## [0.2.2](https://github.com/99linesofcode/laravel-module-support/compare/v0.2.1...v0.2.2) (2026-09-21)
-
-
-### Bug Fixes
-
-* **deps:** bump devshell from `c369d7f` to `21db3dd` ([#78](https://github.com/99linesofcode/laravel-module-support/issues/78)) ([334ddc4](https://github.com/99linesofcode/laravel-module-support/commit/334ddc4094c68a031bcc3ea921e38a8b18863b26))
 
 
 
