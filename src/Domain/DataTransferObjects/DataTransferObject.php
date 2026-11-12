@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Lines\Support\Domain\DataTransferObjects;
 
+use LogicException;
 use ReflectionClass;
 
 abstract readonly class DataTransferObject
@@ -25,8 +26,14 @@ abstract readonly class DataTransferObject
      */
     public static function fromArray(array $data): static
     {
-        $reflection = new ReflectionClass(static::class);
-        $parameters = $reflection->getConstructor()->getParameters();
+        $constructor = (new ReflectionClass(static::class))->getConstructor();
+
+        // A DTO is built from an array alone: a public constructor would open a second way in.
+        if ($constructor->isPublic()) {
+            throw new LogicException(static::class.' must declare its constructor protected or private.');
+        }
+
+        $parameters = $constructor->getParameters();
         $casts = static::casts();
 
         $arguments = [];
@@ -37,7 +44,7 @@ abstract readonly class DataTransferObject
             $arguments[$k] = isset($casts[$k]) ? $casts[$k]($v, $data) : $v;
         }
 
-        // Each subclass declares its own constructor; the arguments come from its reflection.
+        // Each subclass declares its own non-public constructor; the arguments come from its reflection.
         return new static(...$arguments); // @phpstan-ignore new.static
     }
 }
