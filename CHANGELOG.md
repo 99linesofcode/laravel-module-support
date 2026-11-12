@@ -1,3 +1,12 @@
+## [0.6.2](https://github.com/99linesofcode/laravel-module-support/compare/v0.6.1...v0.6.2) (2026-11-12)
+
+
+### Bug Fixes
+
+* **lint:** scan _ide_helper_models.php alone ([345b39a](https://github.com/99linesofcode/laravel-module-support/commit/345b39a910dfdfbd822d4795da7fc7949e693df9))
+
+
+
 ## [0.6.1](https://github.com/99linesofcode/laravel-module-support/compare/v0.6.0...v0.6.1) (2026-11-12)
 
 
@@ -43,15 +52,6 @@
 ### Features
 
 * **shared-kernel:** publish UserId, AsUserId, UserData and UserDirectoryPort ([b0b2286](https://github.com/99linesofcode/laravel-module-support/commit/b0b22868dd7869e2408f2774792c521ad5532019))
-
-
-
-## [0.3.1](https://github.com/99linesofcode/laravel-module-support/compare/v0.3.0...v0.3.1) (2026-10-06)
-
-
-### Bug Fixes
-
-* **lint:** make composer lint green end to end ([5f1f29a](https://github.com/99linesofcode/laravel-module-support/commit/5f1f29a556252ed20454878dc650d869483b2fc6))
 
 
 
