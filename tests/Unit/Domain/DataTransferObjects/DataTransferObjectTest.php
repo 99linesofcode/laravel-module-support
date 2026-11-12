@@ -41,8 +41,17 @@ final readonly class ConcreteDataTransferObject extends DataTransferObject
     }
 }
 
+final readonly class PublicConstructorDataTransferObject extends DataTransferObject
+{
+    public function __construct(public int $id) {}
+}
+
 describe('DataTransferObject', function () {
     describe('fromArray', function () {
+        it('refuses a subclass whose constructor is public', function () {
+            PublicConstructorDataTransferObject::fromArray(['id' => 1]);
+        })->throws(LogicException::class, 'must declare its constructor protected or private');
+
         it('returns the correct concrete instance', function () {
             $dto = ConcreteDataTransferObject::fromArray([
                 'id' => fake()->randomNumber(),
