@@ -1,3 +1,12 @@
+## [0.6.1](https://github.com/99linesofcode/laravel-module-support/compare/v0.6.0...v0.6.1) (2026-11-12)
+
+
+### Bug Fixes
+
+* **shared-kernel:** serialize a UserId as its UUID string ([88a32a8](https://github.com/99linesofcode/laravel-module-support/commit/88a32a82d062ec347a29213a5cf042e1e661eeab))
+
+
+
 # [0.6.0](https://github.com/99linesofcode/laravel-module-support/compare/v0.5.0...v0.6.0) (2026-11-12)
 
 
@@ -43,20 +52,6 @@
 ### Bug Fixes
 
 * **lint:** make composer lint green end to end ([5f1f29a](https://github.com/99linesofcode/laravel-module-support/commit/5f1f29a556252ed20454878dc650d869483b2fc6))
-
-
-
-# [0.3.0](https://github.com/99linesofcode/laravel-module-support/compare/v0.2.2...v0.3.0) (2026-10-06)
-
-
-### Bug Fixes
-
-* **deps:** bump devshell from `21db3dd` to `4075c8d` ([#80](https://github.com/99linesofcode/laravel-module-support/issues/80)) ([625eb01](https://github.com/99linesofcode/laravel-module-support/commit/625eb01d46a8151acc60da057f4ce6ea88d9a52f))
-
-
-### Features
-
-* **lint:** enforce the layer contract with deptrac ([c86215c](https://github.com/99linesofcode/laravel-module-support/commit/c86215c9e6c2d8e3ed40137de35690c4928d2055))
 
 
 
