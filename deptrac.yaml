@@ -24,9 +24,17 @@ deptrac:
       collectors:
         - type: classNameRegex
           value: '#^.*\\Infrastructure\\.*#'
+    - name: SharedKernel
+      collectors:
+        - type: classNameRegex
+          value: '#^.*\\Core\\SharedKernel\\.*#'
   ruleset:
     App:
       - Domain
-    Domain: []
+      - SharedKernel
+    Domain:
+      - SharedKernel
     Infrastructure:
       - Domain
+      - SharedKernel
+    SharedKernel: []
