@@ -8,8 +8,6 @@ use ReflectionClass;
 
 abstract readonly class DataTransferObject
 {
-    abstract protected function __construct();
-
     /**
      * Get the attributes that should be cast.
      *
@@ -39,6 +37,7 @@ abstract readonly class DataTransferObject
             $arguments[$k] = isset($casts[$k]) ? $casts[$k]($v, $data) : $v;
         }
 
-        return new static(...$arguments);
+        // Each subclass declares its own constructor; the arguments come from its reflection.
+        return new static(...$arguments); // @phpstan-ignore new.static
     }
 }
