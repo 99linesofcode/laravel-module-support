@@ -2,9 +2,10 @@
 
 declare(strict_types=1);
 
-uses(\Lines\Support\Tests\TestCase::class);
+uses(TestCase::class);
 
 use Lines\Support\Core\SharedKernel\ValueObjects\UserId;
+use Lines\Support\Tests\TestCase;
 
 describe('UserId', function () {
     it('holds a UUID', function () {

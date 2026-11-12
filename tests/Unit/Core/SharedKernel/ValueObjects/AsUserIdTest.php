@@ -2,13 +2,15 @@
 
 declare(strict_types=1);
 
-uses(\Lines\Support\Tests\TestCase::class, \Illuminate\Foundation\Testing\RefreshDatabase::class);
+uses(TestCase::class, RefreshDatabase::class);
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Schema;
 use Lines\Support\Core\SharedKernel\ValueObjects\AsUserId;
 use Lines\Support\Core\SharedKernel\ValueObjects\UserId;
+use Lines\Support\Tests\TestCase;
 
 final class AsUserIdTestRecord extends Model
 {
