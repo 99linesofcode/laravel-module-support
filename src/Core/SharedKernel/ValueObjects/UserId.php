@@ -12,8 +12,7 @@ final readonly class UserId implements Stringable
 {
     public function __construct(public string $value)
     {
-        // _ide_helper.php redeclares Str with Filament's macros alone, hiding isUuid from PHPStan.
-        if (! Str::isUuid($value)) { // @phpstan-ignore staticMethod.notFound
+        if (! Str::isUuid($value)) {
             throw new InvalidArgumentException("A UserId must be a UUID, got [{$value}].");
         }
     }
