@@ -1,3 +1,12 @@
+# [0.5.0](https://github.com/99linesofcode/laravel-module-support/compare/v0.4.0...v0.5.0) (2026-11-12)
+
+
+### Features
+
+* **lint:** hold the shared kernel to the boundary gate ([8129c4c](https://github.com/99linesofcode/laravel-module-support/commit/8129c4c6d6fccc689016bd72e3dd9cb2828fa4ee))
+
+
+
 # [0.4.0](https://github.com/99linesofcode/laravel-module-support/compare/v0.3.1...v0.4.0) (2026-11-12)
 
 
@@ -48,15 +57,6 @@
 ### Bug Fixes
 
 * **deps:** bump devshell from `c369d7f` to `21db3dd` ([#78](https://github.com/99linesofcode/laravel-module-support/issues/78)) ([334ddc4](https://github.com/99linesofcode/laravel-module-support/commit/334ddc4094c68a031bcc3ea921e38a8b18863b26))
-
-
-
-## [0.2.1](https://github.com/99linesofcode/laravel-module-support/compare/v0.2.0...v0.2.1) (2026-09-17)
-
-
-### Bug Fixes
-
-* **deps:** bump devshell from `7b1fc23` to `c369d7f` ([#76](https://github.com/99linesofcode/laravel-module-support/issues/76)) ([7779472](https://github.com/99linesofcode/laravel-module-support/commit/7779472921a88a2bfc845689731a45a2fd49339c))
 
 
 
