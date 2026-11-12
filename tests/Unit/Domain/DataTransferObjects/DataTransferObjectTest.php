@@ -2,10 +2,11 @@
 
 declare(strict_types=1);
 
-uses(\Lines\Support\Tests\TestCase::class);
+uses(TestCase::class);
 
 use Carbon\CarbonImmutable;
 use Lines\Support\Domain\DataTransferObjects\DataTransferObject;
+use Lines\Support\Tests\TestCase;
 
 final readonly class ConcreteDataTransferObject extends DataTransferObject
 {
