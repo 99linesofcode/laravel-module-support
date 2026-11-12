@@ -44,6 +44,13 @@ describe('AsUserId', function () {
             ->and($fresh->getRawOriginal('user_id'))->toBe('9b2f6d1e-3c4a-4f5b-8e7d-1a2b3c4d5e6f');
     });
 
+    it('serializes the UserId as its UUID string', function () {
+        $record = AsUserIdTestRecord::create(['user_id' => new UserId('9b2f6d1e-3c4a-4f5b-8e7d-1a2b3c4d5e6f')]);
+
+        expect(AsUserIdTestRecord::find($record->id)->toArray()['user_id'])
+            ->toBe('9b2f6d1e-3c4a-4f5b-8e7d-1a2b3c4d5e6f');
+    });
+
     it('passes null through', function () {
         $record = AsUserIdTestRecord::create(['user_id' => null]);
         $fresh = AsUserIdTestRecord::find($record->id);
